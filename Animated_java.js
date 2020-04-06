@@ -7,22 +7,22 @@ $(document).ready(function (){
   });
 
   $(document).keydown(function(e){
-    if (e.keycode=="40"){
+    if (e.keyCode==40){
     $(".block").animate({
        top: "+=20"
   });
     }
-    if (e.keycode=="38") {
+    if (e.keyCode==38) {
      $(".block").animate({
        top: "-=20"
   });
     }
-  if (e.keycode=="39") {
+  if (e.keyCode==39) {
      $(".block").animate({
        left: "+=20"
   });
   }
-  if (e.keycode=="37") {
+  if (e.keyCode==37) {
      $(".block").animate({
        left: "-=20"
   });
